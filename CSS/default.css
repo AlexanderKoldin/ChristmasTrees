@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Cormorant';
+	font-weight: 700;
+	src: local('Cormorant'), local('Cormorant-Bold'), url(../fonts/cormorant-v11-latin_cyrillic-700.woff2) format('woff2'),
+		url(../fonts/cormorant-v11-latin_cyrillic-700.woff) format('woff');
+	font-display: swap;
+}
+
+:root {
+	--main-color: #fff;
+	--second-color: #262626;
+	--one-color: #00654e;
+	--two-color: #006e55;
+	--three-color: #005844;
+	--main-bg-color: #005844;
+	--second-bg-color: #c0b487;
+	--trigger-color: #e5ab39;
+}
