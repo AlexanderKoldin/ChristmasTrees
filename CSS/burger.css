@@ -5,3 +5,13 @@
 }
 .burger__line {
 }
+
+@media (max-width: 1000px) {
+	.burger {
+		display: block;
+	}
+}
+
+@media (max-width: 580px) {
+	
+}
