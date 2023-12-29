@@ -36,6 +36,8 @@
     }
   </style>
 
+  <script src="./JS/burger.js" defer></script>
+
 </head>
 
 <body>
@@ -45,14 +47,16 @@
         <use xlink:href="#logo" />
       </svg>
 
-      <button class="burger header__burger"><span class="burger__line"></span></button>
+      <button class="burger header__burger" onclick="toggleBurger()">
+        <span class="burger__line"></span>
+      </button>
 
       <nav class="header__navigation navigation">
         <ul class="navigation__list">
-          <li class="navigation__item"><a href="" class="navigation__link">Пихта Фразера</a></li>
-          <li class="navigation__item"><a href="" class="navigation__link">Русская ель</a></li>
-          <li class="navigation__item"><a href="" class="navigation__link">Сибирская пихта</a></li>
-          <li class="navigation__item"><a href="" class="navigation__link">Как оплатить?</a></li>
+          <li class="navigation__item"><a href="#one" class="navigation__link">Пихта Фразера</a></li>
+          <li class="navigation__item"><a href="#two" class="navigation__link">Русская ель</a></li>
+          <li class="navigation__item"><a href="#three" class="navigation__link">Сибирская пихта</a></li>
+          <li class="navigation__item"><a href="#pay" class="navigation__link">Как оплатить?</a></li>
         </ul>
       </nav>
 
