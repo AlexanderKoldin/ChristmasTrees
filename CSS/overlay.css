@@ -12,7 +12,7 @@
 	padding: 10px;
 	overflow-x: auto;
 
-	display: none;
+	display: flex;
 }
 
 .overlay__active {
