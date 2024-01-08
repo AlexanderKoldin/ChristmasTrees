@@ -10,9 +10,9 @@
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
-	overflow-x: auto;
+	overflow-y: auto;
 
-	display: flex;
+	display: none;
 }
 
 .overlay__active {
